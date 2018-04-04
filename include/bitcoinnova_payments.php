@@ -151,10 +151,10 @@ class Bitcoinnova_Gateway extends WC_Payment_Gateway {
             echo "</br>Your balance is: Not Avaliable </br>";
             echo "Unlocked balance: Not Avaliable";
         } else {
-            $real_wallet_amount = $wallet_amount['availableBalance'] / 100;
+            $real_wallet_amount = $wallet_amount['availableBalance'] / 1000000;
             $real_amount_rounded = round($real_wallet_amount, 2);
 
-            $unlocked_wallet_amount = $wallet_amount['lockedAmount'] / 100;
+            $unlocked_wallet_amount = $wallet_amount['lockedAmount'] / 1000000;
             $unlocked_amount_rounded = round($unlocked_wallet_amount, 2);
         
             echo "Your balance is:  " . $real_amount_rounded . " BTN </br>";
