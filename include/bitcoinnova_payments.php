@@ -233,7 +233,7 @@ class Bitcoinnova_Gateway extends WC_Payment_Gateway {
                         <div class='content-BTN-payment'>
                             <div class='BTN-amount-send'>
                                 <span class='BTN-label' style='font-weight:bold;'>Amount:</span>
-                                <img src='".plugins_url() . "/bitcoinnova-woocommerce-gateway/assets/bitcoinnova_icon.png' />" . $price . "
+                                <img src='".plugins_url() . "/woo-bitcoinnova/assets/bitcoinnova_icon.png' />" . $price . "
                             </div>
                             <br>
                             <div class='BTN-address'>
@@ -247,7 +247,7 @@ class Bitcoinnova_Gateway extends WC_Payment_Gateway {
                             </div>
                             <br>
                             <div class='BTN-verification-message' style='width:60%;float:left;text-align:center;'>
-                                <img src=".plugins_url() . "/bitcoinnova-woocommerce-gateway/assets/".$icon."' />
+                                <img src=".plugins_url() . "/woo-bitcoinnova/assets/".$icon." />
                                 <h4><font color=$color>" . $message . "</font></h4>                    
                             </div>
                             <div class='BTN-qr-code' style='width:40%;float:left;text-align:center;'>
